@@ -13,4 +13,5 @@ buttons.forEach(function(button){
 
 function startGame(event){
     console.log("click")
+    console.log("click")
 } 
