@@ -7,9 +7,10 @@ const pScore = document.getElementById("score");
 const buttons = document.querySelectorAll("button");
 
 buttons.forEach(function(button){
-button.addEventListener("Click", startGame)
-console.log("Ejecutó el ForEach")
+    button.addEventListener("Click", startGame)
+    console.log("Ejecutó el ForEach")
 })
+
 function startGame(event){
     console.log("click")
-}
+} 
