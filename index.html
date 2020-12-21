@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel o Tijera - Aplicación 2</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    <section id="game-zone">
+      <figure>
+      <figcaption> Jugador </figcaption>
+      <img id="playerChoice" src="C:\Users\Cecilia\Desktop\Piedra etc\images\paper.png" alt="Elección del jugador">
+      </figure>
+        
+       <figure>
+         <figcaption> Computadora</figcaption>
+         <img id="computerChoice" src="C:\Users\Cecilia\Desktop\Piedra etc\images\rock.png" alt="Elección de la computadora">
+       </figure>
+        
+    </section>
+    <p id="result">
+      Tu ganas escogiendo tijeras sobre papel
+    </p>
+    <p id="score">
+        Has ganado 5 veces. Has perdido 4 veces.
+    </p>
+    <section>
+      <p>
+      Escoge una opción: 
+      </p>
+        <button data-choice="Piedra">
+          <img src="C:\Users\Cecilia\Desktop\Piedra etc\images\rock.png" alt="Jugar usando piedra">
+        </button>
+        <button data-choice="Papel">
+          <img src="C:\Users\Cecilia\Desktop\Piedra etc\images\paper.png" alt="Jugar usando papel">
+        </button>
+        <button data-choice="Tijera">
+          <img src="C:\Users\Cecilia\Desktop\Piedra etc\images\scissors.png" alt="Jugar usando tijera">
+        </button>
+    </section>
+     <script src="app.js"> </script>
+</body>
+</html>

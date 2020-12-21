@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background: wheat;
+    font-size: 1.2em;
+
+}
+
+#game-zone {
+    background-color: brown;
+    display: flex;
+    color: white;
+}
+#game-zone figure {
+    flex: 1;
+}
+#result {
+    color: black;
+    border: 1px dashed black;
+    background: tomato;
+}
+#score {
+    color: black;
+    border: 1px dashed black;
+    background: brown;
+}
